@@ -9,28 +9,68 @@
 #+CREATOR: Emacs 25.2.1 (Org mode 8.2.10)
 #+DESCRIPTION: About magit operation cheat sheet.
 #+EXCLUDE_TAGS: noexport
-#+KEYWORDS:
+#+KEYWORDS: magit
 #+LANGUAGE: en
 #+SELECT_TAGS: export
 #+STARTUP: indent
 
-- Check git status under magit: M-x magit-status
-- Quit status window: q
-- Check actions: ?
-- Expand/collapse stage/unstaged changes/commits: tab
-- Collapse changes/commits: 1
-- Expand changes/commits: 4
-- Collapse all: M-1
-- Expand all: M-4
-- Next/previous line: n/p
-- Next/previous section: M-n/M-p
-- Enlarge/shrink hunk: +/-
-- Reset hunk to default: 0
-- Stage/unstage file: s/u
-- Discard change: k
-- Open commit menu: c (usually use c c)
-- Extend the current commit HEAD: e
-- Amend the commit message: a
-- Reword commit message: r
-- Fixup/squash the current commit: f/s
-- Access log menu: l (usually use l l or l h)
+* Magit
+
+** Installation
+After start emacs...
+M-x package-install RET magit RET
+
+** Hotkey
+Combination key prefix meaning:
+M : Alt
+C : Ctrl
+RET: Return / Enter
+SPC: Space
+
+| Command                                            | Hotkey               |
+|----------------------------------------------------+----------------------|
+| Check git status under magit                       | M-x magit-status RET |
+| Refresh magit status buffer                        | g                    |
+| Quit windows                                       | q                    |
+| Check actions                                      | ?                    |
+| Expand/Collapse staged/unstaged changes/commits    | tab                  |
+| Collapse changes/commits                           | 1                    |
+| Expand changes/commits                             | 4                    |
+| Collapse all                                       | M-1                  |
+| Expand all                                         | M-4                  |
+| Next/Previous line                                 | n / p                |
+| Next/previous                                      | M-n / M-p            |
+| Enlarge/Shrink hunk                                | + / -                |
+| Reset hunk size to default                         | 0                    |
+| Open remote menu                                   | M                    |
+| Open fetch menu                                    | f                    |
+| Open pull menu                                     | F                    |
+| Open push menu                                     | P                    |
+| Open merge menu                                    | m                    |
+| Stage/Unstage file                                 | s / u                |
+| Discard change                                     | k                    |
+| Open commit menu                                   | c                    |
+| Extend the current commit HEAD                     | e                    |
+| Amend the commit message                           | a                    |
+| Reword commit message                              | r                    |
+| Fixup/Squash the current commit                    | f / s                |
+| Access log menu                                    | l                    |
+| Reset to selected commit                           | x                    |
+| Revert the commit                                  | v                    |
+| Diff between selected commit and working tree      | d                    |
+| Apply the selected commit's change to working tree | a                    |
+| Cherry pick the commit on top of working tree      | A                    |
+| Interactively rebase from HEAD to selected commit  | E                    |
+| Copy the commit hash:                              | C-w                  |
+| Show the full commit message                       | SPC                  |
+
+P.S. Usually used hotkeys
+1. /l l/ or /l h/ see git log.
+2. /f a/ fetch from all remotes.
+3. /F p/ pull from remotes.
+4. /c c/ write commit message, then use /C-c C-c/ to commit.
+5. /P p/ push to remotes. 
+
+** Reference
+[[https://www.masteringemacs.org/article/introduction-magit-emacs-mode-git][An introduction to Magit, an Emacs mode for Git - Mickey Peterson]]
+[[https://magit.vc/][Magit Official Site]]
