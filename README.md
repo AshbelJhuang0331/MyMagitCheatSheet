@@ -252,11 +252,11 @@ Combination key prefix meaning:
 </table>
 
 P.S. Usually used hotkeys
-1.  `*/l l/*` or `*/l h/*` see git log.
-2.  `*/f a/*` fetch from all remotes.
-3.  `*/F p/*` pull from remotes.
-4.  `*/c c/*` write commit message, then use *C-c C-c* to commit.
-5.  `*/P p/*` push to remotes.
+1.  `l l` or `l h` see git log.
+2.  `f a` fetch from all remotes.
+3.  `F p` pull from remotes.
+4.  `c c` write commit message, then use `C-c C-c` to commit.
+5.  `P p` push to remotes.
 
 ## Reference<a id="sec-1-3" name="sec-1-3"></a>
 
