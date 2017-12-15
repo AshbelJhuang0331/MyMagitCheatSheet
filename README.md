@@ -16,6 +16,8 @@
 
 # Magit<a id="sec-1" name="sec-1"></a>
 
+It's just my cheat sheet of magit.
+
 ## Installation<a id="sec-1-1" name="sec-1-1"></a>
 
 M-x package-install RET magit RET
@@ -259,4 +261,5 @@ P.S. Usually used hotkeys
 ## Reference<a id="sec-1-3" name="sec-1-3"></a>
 
 [An introduction to Magit, an Emacs mode for Git - Mickey Peterson](https://www.masteringemacs.org/article/introduction-magit-emacs-mode-git)
+
 [Magit Official Site](https://magit.vc/)

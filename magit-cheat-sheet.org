@@ -15,12 +15,15 @@
 #+STARTUP: indent
 
 * Magit
+
 It's just my cheat sheet of magit.
 
 ** Installation
+
 M-x package-install RET magit RET
 
 ** Hotkey
+
 Combination key prefix meaning:
 - M : Alt
 - C : Ctrl
@@ -72,5 +75,7 @@ P.S. Usually used hotkeys
 5. =*/P p/*= push to remotes. 
 
 ** Reference
+
 [[https://www.masteringemacs.org/article/introduction-magit-emacs-mode-git][An introduction to Magit, an Emacs mode for Git - Mickey Peterson]]
+
 [[https://magit.vc/][Magit Official Site]]
