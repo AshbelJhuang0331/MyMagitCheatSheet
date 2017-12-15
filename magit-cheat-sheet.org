@@ -28,8 +28,9 @@
 - Reset hunk to default: 0
 - Stage/unstage file: s/u
 - Discard change: k
-- Open commit menu: c
+- Open commit menu: c (usually use c c)
 - Extend the current commit HEAD: e
 - Amend the commit message: a
 - Reword commit message: r
 - Fixup/squash the current commit: f/s
+- Access log menu: l (usually use l l or l h)
