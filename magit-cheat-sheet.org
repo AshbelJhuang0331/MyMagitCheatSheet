@@ -15,17 +15,17 @@
 #+STARTUP: indent
 
 * Magit
+It's just my cheat sheet of magit.
 
 ** Installation
-After start emacs...
 M-x package-install RET magit RET
 
 ** Hotkey
 Combination key prefix meaning:
-M : Alt
-C : Ctrl
-RET: Return / Enter
-SPC: Space
+- M : Alt
+- C : Ctrl
+- RET: Return / Enter
+- SPC: Space
 
 | Command                                            | Hotkey               |
 |----------------------------------------------------+----------------------|
@@ -65,11 +65,11 @@ SPC: Space
 | Show the full commit message                       | SPC                  |
 
 P.S. Usually used hotkeys
-1. /l l/ or /l h/ see git log.
-2. /f a/ fetch from all remotes.
-3. /F p/ pull from remotes.
-4. /c c/ write commit message, then use /C-c C-c/ to commit.
-5. /P p/ push to remotes. 
+1. =*/l l/*= or =*/l h/*= see git log.
+2. =*/f a/*= fetch from all remotes.
+3. =*/F p/*= pull from remotes.
+4. =*/c c/*= write commit message, then use /C-c C-c/ to commit.
+5. =*/P p/*= push to remotes. 
 
 ** Reference
 [[https://www.masteringemacs.org/article/introduction-magit-emacs-mode-git][An introduction to Magit, an Emacs mode for Git - Mickey Peterson]]
